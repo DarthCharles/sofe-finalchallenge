@@ -1,0 +1,5 @@
+/.idea
+farandula-ruby-errors.log*
+farandula-ruby.log*
+/lib/farandula-ruby-errors.log*
+/lib/farandula-ruby.log*

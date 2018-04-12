@@ -1,0 +1,15 @@
+{
+  "RPH":"1",
+  "DepartureDateTime":"2017-04-24T00:00:00",
+  "OriginLocation":{
+    "LocationCode":"CUU"
+  },
+  "DestinationLocation":{
+    "LocationCode":"SFO"
+  },
+  "TPA_Extensions":{
+    "SegmentType":{
+      "Code":"O"
+    }
+  }
+}

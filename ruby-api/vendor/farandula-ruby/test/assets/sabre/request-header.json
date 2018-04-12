@@ -1,0 +1,12 @@
+{"Target": "Production",
+  "POS": {
+    "Source": [{
+      "PseudoCityCode":"F9CE",
+      "RequestorID": {
+        "Type": "1",
+        "ID": "1",
+        "CompanyName": {}
+      }
+    }]
+  }
+}

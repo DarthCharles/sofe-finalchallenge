@@ -1,0 +1,50 @@
+.results-navbar {
+  border-top: 1px $brand-primary solid;
+  border-bottom: 1px $brand-primary solid;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.results-container {
+  padding: 25px 0;
+  max-width: 900px;
+
+  .result-card {
+    background: $brand-white;
+    padding: 10px 5px;
+    border: 1px #eee solid;
+    font-size: 15px;
+    line-height: 1.5;
+
+    -webkit-box-shadow: -4px 5px 15px -4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: -4px 5px 15px -4px rgba(0, 0, 0, 0.14);
+    box-shadow: -4px 5px 15px -4px rgba(0, 0, 0, 0.14);
+
+    .result-card-row {
+      padding: 5px 0px;
+      cursor: pointer;
+
+      .result-card-logo {
+        display: flex; /* establish flex container */
+        flex-direction: column; /* make main axis vertical */
+        justify-content: center; /* center items vertically, in this case */
+        align-items: center; /* center items horizontally, in this case */
+        height: 60px;
+
+        .logo {
+          max-width: 80px;
+        }
+      }
+
+      .text-main {
+        font-weight: 300;
+        font-size: 22px;
+      }
+
+      .text-muted {
+        font-size: 13px;
+        color: $brand-lighter;
+      }
+    }
+  }
+}

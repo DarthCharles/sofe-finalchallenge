@@ -1,0 +1,71 @@
+$font-primary: 'Open Sans', Arial, sans-serif;
+// Overrides
+$grid-gutter-width: 40px;
+$border-radius-base: 4px;
+$padding-base-vertical: 14px;
+
+$brand-primary: #831ba2;
+$brand-primary-lighter: #401d46;
+$brand-primary-darker: #401d46;
+$brand-secondary: #00AD7C;
+
+$brand-white: #fff;
+$brand-black: #000;
+$brand-lighter: #848484;
+$brand-darker: #444444;
+$brand-selection-color: $brand-primary;
+$brand-body-color: #fcfcfc;
+$brand-body-bg: #CCCCCC;
+$brand-dark-footer: #222831;
+
+$input-border-focus: $brand-primary;
+$form-group-margin-bottom: 30px;
+
+// Mixin
+@mixin transition($transition, $ease: 'ease') {
+  -moz-transition: all $transition unquote($ease);
+  -o-transition: all $transition unquote($ease);
+  -webkit-transition: all $transition unquote($ease);
+  -ms-transition: all $transition unquote($ease);
+  transition: all $transition unquote($ease);
+}
+
+@mixin inline-block() {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+@mixin flex() {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin flex() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flexwrap() {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
+
+// Import
+@import '../bootstrap/mixins';
+@import '../bootstrap/variables';

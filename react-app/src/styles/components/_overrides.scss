@@ -1,0 +1,31 @@
+a {
+  color: $brand-primary;
+  @include transition(.5s, ease);
+  &:hover {
+    text-decoration: none;
+    color: $brand-primary;
+  }
+}
+
+p, ul, ol {
+  margin-bottom: 1.5em;
+  font-size: 16px;
+  color: $brand-lighter;
+  // font-weight: 300;
+  font-family: $font-primary;
+}
+
+::-webkit-selection {
+  color: $brand-body-color;
+  background: $brand-selection-color;
+}
+
+::-moz-selection {
+  color: $brand-body-color;
+  background: $brand-selection-color;
+}
+
+::selection {
+  color: $brand-body-color;
+  background: $brand-selection-color;
+}

@@ -1,0 +1,22 @@
+{
+  "TravelPreferences": {
+    "ValidInterlineTicket": true,
+    "CabinPref": [{
+      "Cabin": "B",
+      "PreferLevel": "Preferred"
+    }],
+      "TPA_Extensions": {
+        "TripType": {
+        "Value": "Return"
+      },
+      "LongConnectTime": {
+        "Min": 780,
+        "Max": 1200,
+        "Enable": true
+      },
+      "ExcludeCallDirectCarriers": {
+        "Enabled": true
+      }
+    }
+  }
+}

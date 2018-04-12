@@ -1,0 +1,11 @@
+{
+  "TravelerInfoSummary": {
+    "SeatsRequested": [1],
+    "AirTravelerAvail": [{
+      "PassengerTypeQuantity": [{
+        "Code": "ADT",
+        "Quantity": 1
+      }]
+    }]
+  }
+}

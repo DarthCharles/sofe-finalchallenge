@@ -1,0 +1,103 @@
+.search-cover,
+.search-hero {
+  position: relative;
+  height: 100vh;
+
+  .search-overlay {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+    background: rgba(255, 62, 28, 0.5);
+    background: -moz-linear-gradient(left, rgba(255, 0, 84, 0.5) 0%, rgba(0, 50, 255, 0.5) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 0, 84, 0.5)), color-stop(100%, rgba(0, 50, 255, 0.5)));
+    background: -webkit-linear-gradient(left, rgba(255, 0, 84, 0.5) 0%, rgba(0, 50, 255, 0.5) 100%);
+    background: -o-linear-gradient(left, rgba(255, 0, 84, 0.5) 0%, rgba(0, 50, 255, 0.5) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 0, 84, 0.5) 0%, rgba(0, 50, 255, 0.5) 100%);
+    background: linear-gradient(to right, rgba(255, 0, 84, 0.5) 0%, rgba(0, 50, 255, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1);
+  }
+}
+
+.search-cover {
+  background-size: cover;
+  position: relative;
+  @media screen and (max-width: $screen-sm) {
+    heifght: inherit;
+    padding: 3em 0;
+  }
+  .btn {
+    padding: 1em 2em;
+    opacity: .9;
+  }
+  &.search-cover_2 {
+    height: 600px;
+    @media screen and (max-width: $screen-sm) {
+      heifght: inherit;
+      padding: 3em 0;
+    }
+
+  }
+
+  .search-container {
+    top: 20%;
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    z-index: 2;
+
+    @media screen and (max-width: $screen-sm) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    h2 {
+      font-size: 60px;
+      margin-bottom: 10px;
+      font-weight: 400 !important;
+      @media screen and (max-width: $screen-sm) {
+        font-size: 40px;
+      }
+    }
+    p {
+      display: block;
+      margin-bottom: 30px;
+
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, .7);
+      a {
+        color: $brand-white;
+
+        &:hover, &:focus {
+          color: #fff !important;
+          &.btn {
+            border: 2px solid #fff !important;
+            background: transparent !important;
+          }
+        }
+
+        &.search-site-name {
+          padding-bottom: 2px;
+          border-bottom: 1px solid rgba($brand-white, .7);
+        }
+      }
+    }
+    .price {
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+  }
+}
+
+.search-copy {
+    left: 5px;
+    @media screen and(max-width: $screen-sm) {
+      display: none;
+    }
+}

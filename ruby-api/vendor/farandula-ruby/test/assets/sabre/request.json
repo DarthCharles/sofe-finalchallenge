@@ -1,0 +1,78 @@
+{ 
+  "OTA_AirLowFareSearchRQ": {
+    "Target": "Production", 
+    "POS": { 
+      "Source": [{ 
+        "PseudoCityCode": "F9CE", 
+        "RequestorID": { 
+          "Type": "1", 
+          "ID": "1", 
+          "CompanyName": {} 
+        } 
+      }] 
+    },
+    "OriginDestinationInformation": [{ 
+      "RPH": "1", 
+      "DepartureDateTime": "2017-12-24T00:00:00", 
+      "OriginLocation": { 
+        "LocationCode": "CUU"
+      }, 
+      "DestinationLocation": { 
+        "LocationCode": "SFO" 
+      }, "TPA_Extensions": { 
+        "SegmentType": { 
+          "Code": "O"
+        } 
+      } 
+    }, { 
+      "RPH": "2", 
+      "DepartureDateTime": "2017-12-30T00:00:00", 
+      "OriginLocation": { 
+        "LocationCode": "SFO" 
+      }, 
+      "DestinationLocation": { 
+        "LocationCode": "CUU"
+      }, 
+      "TPA_Extensions": {
+        "SegmentType": { 
+          "Code": "O" 
+        } 
+      } 
+    }], 
+    "TravelPreferences": { 
+      "ValidInterlineTicket": true, 
+      "CabinPref": [{ 
+        "Cabin": "Y", 
+        "PreferLevel": "Preferred" 
+      }], 
+      "TPA_Extensions": { 
+        "TripType": { 
+          "Value": "Return" 
+        }, 
+        "LongConnectTime": { 
+          "Min": 780, 
+          "Max": 1200, 
+          "Enable": true 
+        }, 
+        "ExcludeCallDirectCarriers": {
+          "Enabled": true 
+        } 
+      } 
+    }, 
+    "TravelerInfoSummary": { 
+      "SeatsRequested": [1], 
+      "AirTravelerAvail": [{ 
+        "PassengerTypeQuantity": [{ 
+          "Code": "ADT", "Quantity": 1 
+        }] 
+      }] 
+    }, 
+    "TPA_Extensions": { 
+      "IntelliSellTransaction": { 
+        "RequestType": {
+          "Name": "50ITINS" 
+        } 
+      } 
+    } 
+  } 
+}

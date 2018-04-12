@@ -1,0 +1,116 @@
+{
+  "currency" : "USD",
+  "results" : [ {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-24T12:38",
+          "arrives_at" : "2017-12-24T15:41",
+          "origin" : {
+            "airport" : "CUU"
+          },
+          "destination" : {
+            "airport" : "DFW",
+            "terminal" : "D"
+          },
+          "marketing_airline" : "AA",
+          "operating_airline" : "AA",
+          "flight_number" : "3385",
+          "aircraft" : "ER4",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "O",
+            "seats_remaining" : 3
+          }
+        }, {
+          "departs_at" : "2017-12-24T17:10",
+          "arrives_at" : "2017-12-24T19:04",
+          "origin" : {
+            "airport" : "DFW",
+            "terminal" : "0"
+          },
+          "destination" : {
+            "airport" : "SFO",
+            "terminal" : "2"
+          },
+          "marketing_airline" : "AA",
+          "operating_airline" : "AA",
+          "flight_number" : "2651",
+          "aircraft" : "738",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "O",
+            "seats_remaining" : 3
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "369.95",
+      "price_per_adult" : {
+        "total_fare" : "369.95",
+        "tax" : "113.95"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-24T08:30",
+          "arrives_at" : "2017-12-24T11:29",
+          "origin" : {
+            "airport" : "CUU"
+          },
+          "destination" : {
+            "airport" : "IAH",
+            "terminal" : "E"
+          },
+          "marketing_airline" : "UA",
+          "operating_airline" : "UA",
+          "flight_number" : "4105",
+          "aircraft" : "ERJ",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-24T12:55",
+          "arrives_at" : "2017-12-24T15:20",
+          "origin" : {
+            "airport" : "IAH",
+            "terminal" : "C"
+          },
+          "destination" : {
+            "airport" : "SFO",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "UA",
+          "operating_airline" : "UA",
+          "flight_number" : "1815",
+          "aircraft" : "739",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "375.52",
+      "price_per_adult" : {
+        "total_fare" : "375.52",
+        "tax" : "114.52"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  } ]
+}

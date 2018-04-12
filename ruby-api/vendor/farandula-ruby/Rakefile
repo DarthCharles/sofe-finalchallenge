@@ -1,0 +1,25 @@
+require "bundler/gem_tasks"
+require 'rake/testtask'
+
+namespace :test do
+    desc "Run unit tests"
+    Rake::TestTask.new do |t|
+        t.name = 'unit'
+        t.libs << 'test'
+        t.libs << 'lib'
+        t.pattern = "test/unit/**/**/*_test.rb"
+    end
+
+    desc "Run integration tests"
+    Rake::TestTask.new do |t|
+        t.name = 'integration'
+        t.libs << 'test'
+        t.libs << 'lib'
+        t.pattern = "test/integration/**/*integration_test.rb"
+    end
+
+
+    desc 'Run all tests'
+    task :all => ['unit', 'integration']
+
+end

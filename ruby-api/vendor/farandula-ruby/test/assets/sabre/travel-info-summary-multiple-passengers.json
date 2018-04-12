@@ -1,0 +1,13 @@
+{
+  "TravelerInfoSummary": {
+    "SeatsRequested": [4],
+    "AirTravelerAvail": [{
+      "PassengerTypeQuantity": [
+        {"Code":"ADT","Quantity":2},
+        {"Code":"CNN","Quantity":1},
+        {"Code":"INF","Quantity":1},
+        {"Code":"INS","Quantity":1}
+      ]
+    }]
+  }
+}

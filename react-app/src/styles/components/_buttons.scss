@@ -1,0 +1,39 @@
+.btn {
+  @include transition(.3s);
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include transition(.3s);
+  &.btn-primary {
+    background: $brand-primary;
+    color: $brand-white;
+    border: none !important;
+    border: 2px solid transparent !important;
+    &:hover, &:active, &:focus {
+      box-shadow: none;
+      background: $brand-primary;
+      color: $brand-white !important;
+    }
+  }
+  &:hover, &:active, &:focus {
+    background: $brand-primary-darker !important;
+    color: $brand-white;
+    outline: none !important;
+  }
+  &.btn-default {
+    &:hover, &:focus, &:active {
+      border-color: transparent;
+    }
+  }
+  &.btn-outline {
+    background: transparent;
+    color: $brand-primary;
+    border: 2px solid $brand-primary !important;
+    &:hover, &:focus, &:active {
+      background: $brand-primary !important;
+      color: $brand-white !important;
+    }
+  }
+}
